@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>𝚂𝙰𝚁𝚃𝙷𝙰𝙺 𝙹𝙰𝙸𝙿𝚄𝚁</title>
 
-<!-- Telegram Icon CDN -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
@@ -46,10 +45,22 @@ body{
     to{opacity:1; transform:translateY(0);}
 }
 
-/* Logo */
+/* ---- NEW CARD WRAPPER ---- */
+.card{
+    text-align:center;
+}
+
+/* Center Logo */
 .logo{
-    width:110px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     margin-bottom:20px;
+}
+
+.logo img{
+    width:120px;
+    height:120px;
     border-radius:50%;
     box-shadow:0 0 25px rgba(255,255,255,0.4);
 }
@@ -61,12 +72,10 @@ h1{
 }
 
 /* -------- FEATURES SECTION -------- */
-
 .features{
     list-style:none;
     text-align:left;
     margin-bottom:30px;
-    padding:0;
 }
 
 .features li{
@@ -115,7 +124,6 @@ h1{
     font-size:22px;
 }
 
-/* Hover */
 .btn:hover{
     transform: scale(1.08);
     box-shadow: 0 15px 35px rgba(0,0,0,0.6);
@@ -135,16 +143,20 @@ h1{
 <body>
 
 <div class="container">
+<div class="card">
 
-<img src="logo.png" alt="SJ Logo" class="logo"
-onerror="this.style.display='none'">
+    <div class="logo">
+        <img src="logo.png" alt="SJ Logo" onerror="this.style.display='none'">
+    </div>
 
-<h1>𝚂𝙰𝚁𝚃𝙷𝙰𝙺 𝙹𝙰𝙸𝙿𝚄𝚁</h1>
+    <h1>𝚂𝙰𝚁𝚃𝙷𝙰𝙺 𝙹𝙰𝙸𝙿𝚄𝚁</h1>
+
+</div>
 
 <ul class="features">
 <li>𝟴𝟬/𝟭𝟬𝟬 𝗠𝗮𝘁𝗰𝗵𝗲𝘀 𝗣𝗮𝘀𝘀𝗲𝗱 𝗥𝗲𝗰𝗼𝗿𝗱 🏆</li>
 <li>𝗠𝗼𝘀𝘁 𝗧𝗿𝘂𝘀𝘁𝗲𝗱 𝗧𝗶𝗽𝗽𝗲𝗿 𝗦𝗶𝗻𝗰𝗲 - 𝟮𝟬𝟭𝟭 ✓</li>
-<li> 𝟰𝟰/𝟰𝟮 𝗕𝗕𝗟 𝗠𝗮𝘁𝗰𝗵𝗲𝘀 𝗣𝗮𝘀𝘀𝗲𝗱 🏆</li>
+<li>𝟰𝟰/𝟰𝟮 𝗕𝗕𝗟 𝗠𝗮𝘁𝗰𝗵𝗲𝘀 𝗣𝗮𝘀𝘀𝗲𝗱 🏆</li>
 </ul>
 
 <a href="https://t.me/+2gcMkdhu6ZRjNmZl"
